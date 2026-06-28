@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">Alternar Tema</button>
+    </header>
+
+    <main class="content">
+        <section id="sobre-mim" class="section-box">
+            <h2>Sobre mim</h2>
+            <p>Olá! Meu nome é João Henrique Junqueira Nery. Sou estudante de tecnologia e apaixonado por desenvolvimento web. No meu tempo livre, gosto de explorar novas ferramentas digitais, ler sobre inovação e praticar programação.</p>
+            <p>Tenho facilidade para aprender de forma autodidata e busco criar soluções que facilitem a rotina das pessoas através da tecnologia.</p>
+        </section>
+
+        <section id="formacao" class="section-box">
+            <h2>Formação</h2>
+            <div class="card">
+                <h3>Graduação em Análise e Desenvolvimento de Sistemas</h3>
+                <p><strong>Instituição:</strong> Centro Universitário Internacional UNINTER</p>
+                <p><strong>Status:</strong> Em andamento</p>
+            </div>
+            <div class="card">
+                <h3>Idiomas</h3>
+                <p>Português (Nativo) | Inglês (Intermediário)</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-box">
+            <h2>Portfólio</h2>
+            <p>Confira abaixo alguns dos projetos públicos desenvolvidos por mim:</p>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <h3>Projeto 1 - Jogo Mata-Mosquito</h3>
+                    <p>Aplicação interativa criada puramente com HTML, CSS e JavaScript.</p>
+                    <a href="https://github.com/" target="_blank" class="btn-link">Ver Código no GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto 2 - Sistema de Finanças</h3>
+                    <p>Interface responsiva para controle financeiro pessoal simples.</p>
+                    <a href="https://github.com/" target="_blank" class="btn-link">Ver Código no GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section-box">
+            <h2>Contato</h2>
+            <form id="contact-form" class="form-container">
+                <div class="form-group">
+                    <label for="nome">Nome: João Henrique Junqueira Nery</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail: jhenriquen14@gmail.com</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 - Desenvolvido por João Henrique Junqueira Nery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
